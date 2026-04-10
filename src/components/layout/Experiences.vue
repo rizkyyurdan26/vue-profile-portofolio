@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-gray-100 p-10 mt-5">
+  <div class="w-full bg-gray-100 px-10 pt-10 pb-20 mt-5">
     <div class="w-full lg:max-w-[80%] mx-auto">
       <h1 class="text-2xl font-bold">Experiences</h1>
 

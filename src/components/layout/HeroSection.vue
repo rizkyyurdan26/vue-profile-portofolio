@@ -14,7 +14,7 @@
       <!-- Main Title -->
       <div class="flex flex-col text-white">
         <h1 class="font-medium text-gray-200">Welcome to,</h1>
-        <h1 class="text-4xl font-bold">My Profile Website</h1>
+        <h1 class="text-4xl lg:text-5xl font-bold">My Profile Website</h1>
         <!-- Item Span -->
         <div class="flex flex-wrap gap-2 mt-2 mb-8 md:max-w-md">
           <SpanButton text="Website" />
@@ -35,11 +35,13 @@
       <div
         class="flex flex-wrap md:flex-row gap-4 justify-center md:justify-start absolute w-full bottom-10 md:relative md:mt-20"
       >
-        <PrimaryButton
-          text="Show More"
-          icon="material-symbols-light:arrow-drop-down"
-          classIcon="w-8 h-8"
-        />
+        <a href="#about">
+          <PrimaryButton
+            text="Show More"
+            icon="material-symbols-light:arrow-drop-down"
+            classIcon="w-8 h-8"
+          />
+        </a>
 
         <PrimaryButton
           :onClick="handleEmail"
@@ -50,7 +52,6 @@
         />
       </div>
     </div>
-    
   </section>
 </template>
 

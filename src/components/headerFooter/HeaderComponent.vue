@@ -89,7 +89,7 @@
           :class="activeMenu === 'education' ? 'md:text-sky-200' : ''"
         />
         <a
-          href="#footer"
+          href="#contact"
           @click="() => (isActive = false)"
           class="flex items-center gap-1 text-white bg-cyan-500 px-4 py-1 rounded-lg shadow-lg hover:scale-105 transform duration-300"
         >

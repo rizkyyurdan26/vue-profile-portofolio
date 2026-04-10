@@ -1,12 +1,12 @@
 <template>
-  <footer id="footer" class="w-full bg-cyan-800 px-6 py-10 mt-20">
+  <footer id="contact" class="w-full bg-cyan-800 px-6 py-10">
     <!-- Container -->
     <div
       class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full lg:max-w-[80%] mx-auto"
     >
       <!-- Left -->
       <div class="text-slate-200 ">
-        <a href="#top"><img src="/logoputihbaru.png" class="w-28 mb-2" /></a>
+        <a href="#"><img src="/logoputihbaru.png" class="w-28 mb-2" /></a>
         <p class="text-sm text-slate-200">
           Professional Frontend Developer.
           Open to exciting opportunities, freelance projects, and meaningful
