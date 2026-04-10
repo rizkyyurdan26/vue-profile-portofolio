@@ -11,8 +11,8 @@
     >
       <!-- Logo -->
       <div class="w-full">
-        <a href="#top"
-          ><img src="/logoputih.png" class="w-40 md:w-64 object-cover" />
+        <a href="#"
+          ><img src="/logoputih.png" class="w-40 md:w-48 object-cover" />
         </a>
       </div>
 
@@ -26,11 +26,12 @@
         :class="[
           'fixed flex flex-col md:flex-row right-0 h-screen w-1/2 bg-gray-200/90  gap-5',
           'transform transition-transform duration-300 ease-in-out',
-          isScrolled ? 'top-0' : 'top-0',
+          isScrolled ? 
+          'top-0' : 'top-0',
           isActive
             ? 'p-6 translate-x-0 text-black items-start'
             : 'translate-x-full p-6',
-          'md:static md:h-auto md:w-auto md:bg-transparent md:translate-x-0 md:flex md:gap-10 lg:gap-15 md:items-center md:text-white/90 md:p-0',
+          'md:static md:h-auto md:w-auto md:bg-transparent md:translate-x-0 md:flex lg:gap-10 md:items-center md:text-white/90 md:p-0',
         ]"
       >
         <!-- Close Hamburger Btn -->
@@ -44,15 +45,15 @@
 
         <!-- Main Menu -->
         <AButton
-          href="#home"
+          href="#"
           text="Home"
           @click="
             () => {
-              activeMenu = 'home';
+              activeMenu = 'top';
               isActive = false;
             }
           "
-          :class="activeMenu === 'home' ? 'md:text-sky-200' : ''"
+          :class="activeMenu === 'top' ? 'md:text-sky-200' : ''"
         />
         <AButton
           href="#about"
@@ -76,8 +77,19 @@
           "
           :class="activeMenu === 'skills' ? 'md:text-sky-200' : ''"
         />
+        <AButton
+          href="#education"
+          text="Education"
+          @click="
+            () => {
+              activeMenu = 'education';
+              isActive = false;
+            }
+          "
+          :class="activeMenu === 'education' ? 'md:text-sky-200' : ''"
+        />
         <a
-          href="#contact"
+          href="#footer"
           @click="() => (isActive = false)"
           class="flex items-center gap-1 text-white bg-cyan-500 px-4 py-1 rounded-lg shadow-lg hover:scale-105 transform duration-300"
         >

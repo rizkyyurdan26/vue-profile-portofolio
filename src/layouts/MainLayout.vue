@@ -5,12 +5,11 @@
         <router-view></router-view>
     </main>
 
-    <footer>
-        
-    </footer>
+    <FooterComponent/>
 </template>
 
 <script setup>
+import FooterComponent from '../components/headerFooter/FooterComponent.vue';
 import HeaderComponent from '../components/headerFooter/HeaderComponent.vue';
 
 
