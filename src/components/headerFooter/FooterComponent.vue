@@ -1,5 +1,5 @@
 <template>
-  <footer id="footer" class="w-full bg-cyan-800 p-6 mt-20">
+  <footer id="footer" class="w-full bg-cyan-800 px-6 py-10 mt-20">
     <!-- Container -->
     <div
       class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full lg:max-w-[80%] mx-auto"
@@ -54,7 +54,8 @@
       </div>
     </div>
     <div
-      class="flex flex-col items-center lg:max-w-[80%] w-full mx-auto text-white border-slate-400 border-t-1 py-4 mt-10"
+      class="flex flex-col items-center lg:max-w-[80%] w-full mx-auto text-white border-slate-400 border-t
+       py-4 mt-10"
     >
       <p class="font-light flex items-center">
         <Icon icon="ic:sharp-copyright" />2026, RYS | Web Profile
