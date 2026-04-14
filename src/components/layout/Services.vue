@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-cyan-300/10 py-10 shadow-xl">
+  <div class=" bg-cyan-200/10 py-10 shadow-xl">
     <div
       class="max-w-[80%] lg:max-w-[60%] mx-auto grid grid-cols-2 md:grid-cols-4 text-center gap-4"
     >

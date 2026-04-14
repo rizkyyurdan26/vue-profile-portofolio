@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="flex flex-col w-full justify-center items-center py-10 md:py-15  bg-gray-100">
+  <div id="about" class="flex flex-col w-full justify-center items-center py-10 md:py-15  bg-gray-100/40">
     
     <h1 class="text-2xl font-bold">About</h1>
     <div

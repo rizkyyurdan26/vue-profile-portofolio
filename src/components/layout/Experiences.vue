@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-gray-100 px-10 pt-10 pb-20 mt-5">
+  <div class="w-full bg-gray-100/40 px-10 pt-10 pb-20 mt-5">
     <div class="w-full lg:max-w-[80%] mx-auto">
       <h1 class="text-2xl font-bold">Experiences</h1>
 
@@ -49,7 +49,7 @@
         <h1
           class="font-semibold justify-between w-full lg:max-w-[60%] flex items-center"
         >
-          Frontend Developer & Data Analyst
+          Software Developer
           <span class="font-light text-sm">2020 - Present</span>
         </h1>
         <p class="text-sm font-bold">Freelancer</p>
