@@ -28,7 +28,7 @@
           freelance projects through my own business on
           <a href="https://rystech.my.id" class="text-orange-200 underline"
             >rystech.my.id</a
-          >. Follow this reposetory on <a href="https://github.com/rizkyyurdan26/vue-profile-portofolio" class="text-orange-200 underline"
+          >, follow this repository on <a href="https://github.com/rizkyyurdan26/vue-profile-portofolio" class="text-orange-200 underline"
             >Github Repo</a
           >
         </p>
