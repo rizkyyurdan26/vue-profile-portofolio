@@ -25,9 +25,11 @@
         </div>
         <p class="max-w-lg text-md md:text-xl lg:text-md text-gray-200">
           Professional frontend developer specializing in Vue.js. Also take on
-          freelance projects through my own business at
+          freelance projects through my own business on
           <a href="https://rystech.my.id" class="text-orange-200 underline"
             >rystech.my.id</a
+          >. Follow this reposetory on <a href="https://github.com/rizkyyurdan26/vue-profile-portofolio" class="text-orange-200 underline"
+            >Github Repo</a
           >
         </p>
       </div>
