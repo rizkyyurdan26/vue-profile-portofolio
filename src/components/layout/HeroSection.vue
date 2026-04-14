@@ -48,7 +48,7 @@
           text="Reach Me"
           class="bg-orange-500 hover:bg-orange-700"
           icon="material-symbols-light:stacked-email"
-          classIcon="w-8 h-8 md:w-5 md:h-5 ml-2"
+          classIcon="w-8 h-8 md:w-5"
         />
       </div>
     </div>
