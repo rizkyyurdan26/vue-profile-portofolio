@@ -3,7 +3,7 @@
     <h1 class="font-bold text-2xl">Education</h1>
 
     <div class="flex w-full mx-auto lg:max-w-[80%] px-4 md:px-6 mt-10 justify-center">
-      <div class="grid md:grid-cols-2 gap-8 w-full">
+      <div class="grid md:grid-cols-2 gap-8 w-full md:place-items-center">
         
         <div class="flex items-center gap-4"> 
           <img
