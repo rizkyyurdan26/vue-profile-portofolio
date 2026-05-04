@@ -1,9 +1,9 @@
 <template>
-  <div id="about" class="flex flex-col w-full justify-center items-center py-10 md:py-15  bg-gray-100/40">
+  <div id="about" class="scroll-mt-20 md:scroll-mt-36 flex flex-col gap-5 w-full justify-center items-center py-10 md:py-15  bg-gray-100/40" data-sal="slide-up" data-sal-duration="1000">
     
     <h1 class="text-2xl font-bold">About</h1>
     <div
-      class="flex flex-col md:flex-row lg:max-w-[80%] w-full p-6 items-center justify-around"
+      class="flex flex-col md:flex-row lg:max-w-[80%] w-full items-center justify-around p-6 md:p-0"
     >
 
       <!-- Left -->
@@ -22,8 +22,8 @@
       </div>
 
       <!-- Right -->
-      <div class="mt-5 md:mt-0">
-        <img src="../../assets/static/profile.jpeg" alt="" class="w-70 h-73 rounded-full border-5 border-slate-100 shadow-xl" />
+      <div class="mt-5 md:mt-0 ">
+        <img src="../assets/static/profile.jpeg" alt="" class="w-70 h-73 rounded-full border-5 border-slate-100 shadow-xl" />
       </div>
 
     </div>

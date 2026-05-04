@@ -69,8 +69,10 @@
 </template>
 
 <script setup>
-import PrimaryButton from "../common/PrimaryButton.vue";
-import SpanButton from "../common/SpanButton.vue";
+import PrimaryButton from '../components/common/PrimaryButton.vue';
+import SpanButton from '../components/common/SpanButton.vue';
+
+
 
 const handleEmail = () => {
   window.open(

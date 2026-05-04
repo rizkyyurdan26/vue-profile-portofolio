@@ -8,7 +8,7 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
 1. vue-vite: npm create vite@latest . -- --template vue
 2. tailwindcss: npm install tailwindcss @tailwindcss/vite
-3. router: npm install vue-router
+3. animation: npm install --save sal.js
 4. google font : "Google sans"
 5. iconify: npm install --save-dev @iconify/vue
 

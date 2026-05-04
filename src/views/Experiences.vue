@@ -1,15 +1,21 @@
 <template>
-  <div class="w-full bg-gray-100/40 px-10 pt-10 pb-20 mt-5">
+  <div class=" w-full bg-gray-100/40 px-10 pt-10 pb-20 mt-5" data-sal="slide-up" data-sal-duration="1300">
     <div class="w-full lg:max-w-[80%] mx-auto">
       <h1 class="text-2xl font-bold">Experiences</h1>
 
+      <!-- Rys Tech -->
       <div class="mt-5 text-slate-700">
-        <div class="w-full lg:max-w-[60%] flex flex-col sm:flex-row sm:items-center sm:justify-between">
-          <h1 class="font-semibold text-lg">RYSTech Digital Studio</h1>
-          <span class="font-light text-sm text-gray-500">Apr 2026 - Present</span>
-        </div>
-        <p class="text-sm font-bold mt-1 sm:mt-0">Own Bussiness, Pekanbaru City</p>
-        
+        <h1 class="font-semibold text-lg">RYSTech Digital Studio</h1>
+
+        <p
+          class="text-sm font-bold mt-1 sm:mt-0 flex flex-col md:flex-row md:gap-70"
+        >
+          Own Bussiness, Pekanbaru City
+          <span class="font-light text-sm text-gray-500"
+            >Apr 2026 - Present</span
+          >
+        </p>
+
         <ul class="list-disc list-outside ml-4 mt-2 text-sm space-y-1.5">
           <li>
             Develop digital solutions including websites, web applications, data
@@ -44,13 +50,19 @@
         </ul>
       </div>
 
+      <!-- Freelance -->
       <div class="mt-8 text-slate-700">
-        <div class="w-full lg:max-w-[60%] flex flex-col sm:flex-row sm:items-center sm:justify-between">
-          <h1 class="font-semibold text-lg">Software Developer</h1>
-          <span class="font-light text-sm text-gray-500">2020 - Present</span>
-        </div>
-        <p class="text-sm font-bold mt-1 sm:mt-0">Freelancer</p>
-        
+        <h1 class="font-semibold text-lg">Software Developer</h1>
+
+        <p
+          class="text-sm font-bold mt-1 sm:mt-0 flex flex-col md:flex-row md:gap-105"
+        >
+          Freelancer
+          <span class="font-light text-sm text-gray-500"
+            >Aug 2025 - Present</span
+          >
+        </p>
+
         <ul class="list-disc list-outside ml-4 mt-2 text-sm space-y-1.5">
           <li>
             Develop and maintain websites and web applications using modern
@@ -68,13 +80,20 @@
         </ul>
       </div>
 
+      <!-- Soto -->
+
       <div class="mt-8 text-slate-700">
-        <div class="w-full lg:max-w-[60%] flex flex-col sm:flex-row sm:items-center sm:justify-between">
-          <h1 class="font-semibold text-lg">Soto Goreng Sarjana</h1>
-          <span class="font-light text-sm text-gray-500">Jun 2025 - Jan 2026</span>
-        </div>
-        <p class="text-sm font-bold mt-1 sm:mt-0">Founder, Malang City</p>
-        
+        <h1 class="font-semibold text-lg">Soto Goreng Sarjana</h1>
+
+        <p
+          class="text-sm font-bold mt-1 sm:mt-0 flex flex-col md:flex-row md:gap-85"
+        >
+          Founder, Malang City
+          <span class="font-light text-sm text-gray-500"
+            >Jun 2025 - Jan 2026</span
+          >
+        </p>
+
         <ul class="list-disc list-outside ml-4 mt-2 text-sm space-y-1.5">
           <li>
             Founded and developed a culinary business introducing Sumatran-style

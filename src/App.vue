@@ -1,7 +1,17 @@
 <script setup>
-import HomePage from './views/HomePage.vue';
+import MainLayout from './layouts/MainLayout.vue';
+import { onMounted } from 'vue'
+import sal from 'sal.js'
+import 'sal.js/dist/sal.css'
+
+onMounted(() => {
+  sal({
+    threshold: 0.5,
+    once: true
+  })
+})
 </script>
 
 <template>
-  <router-view></router-view>
+  <MainLayout/>
 </template>

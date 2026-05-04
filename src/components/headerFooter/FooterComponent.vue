@@ -45,12 +45,14 @@
           placeholder="Type your mail here"
           v-model="message"
         ></textarea>
-        <button
-          class="text-white text-sm bg-cyan-500 mt-2 rounded flex py-1 justify-center gap-2 w-1/2 cursor-pointer hover:scale-105"
+        <div>
+          <button
+          class="text-white text-sm bg-cyan-500 mt-2 rounded flex py-2 px-6 justify-center gap-2 cursor-pointer hover:scale-105"
           @click="handleEmail"
         >
           Send <Icon icon="ic:baseline-send" class="-rotate-45" />
         </button>
+        </div>
       </div>
     </div>
     <div
@@ -75,6 +77,7 @@ const subject = ref("");
 const handleEmail = () => {
   if (!message.value.trim() || !subject.value.trim()) {
     alert("Please fill Subject and Message if you want to send email");
+    return
   } else {
     window.open(
       `https://mail.google.com/mail/?view=cm&to=rizkyyurdansyah@gmail.com&su=${encodeURIComponent(subject.value)}&body=${encodeURIComponent(message.value)}`,
