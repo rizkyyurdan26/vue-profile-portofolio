@@ -3,6 +3,7 @@
     id="top"
     class="relative bg-cover w-full h-[100dvh]"
     style="background-image: url(/hero.webp);"
+    data-sal="fade" data-sal-duration="1500"
   >
     <!-- Overlay -->
     <div class="absolute bg-black/10 inset-0 z-0"></div>
