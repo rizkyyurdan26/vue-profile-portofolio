@@ -8,15 +8,22 @@
 
       <!-- Left -->
       <div class="flex flex-col md:max-w-[60%] w-full gap-2">
-        <h1 class="font-semibold">Frontend Developer:</h1>
-        <p class="text-slate-700">Frontend Developer focused on building modern, responsive, and user-friendly web interfaces. Experienced in using Vue.js to create clean, interactive, and high-performance user experiences.</p>
-        <h1 class="mt-4 font-semibold">Data Analyst:</h1>
-        <p class="text-slate-700">A data-driven individual with the ability to process and analyze data into meaningful insights. Skilled in using tools such as Python and Looker Studio for data visualization dashboard and analysis.</p>
+        <h1 class="font-semibold text-lg">Frontend Developer:</h1>
+        <p class="text-slate-700 text-sm md:text-md">A Frontend Developer focused on building fast, responsive, and production-ready web interfaces. Experienced in turning requirements into clear, structured, and user-friendly interfaces, with strong attention to performance, UI consistency, and code maintainability.</p>
+        <div class="">
+          <h1 class="mt-4 font-semibold mb-2">Vue.js</h1>
+          <p class="text-slate-700 text-sm md:text-md">Utilizing Vue.js to build well-structured and scalable component-based applications. Comfortable managing state, creating reusable components, and maintaining clean data flow to keep projects organized as they grow.</p>
+        </div>
+
+        <div class="hidden md:block">
+          <h1 class="mt-4 font-semibold mb-2">UI Implementation</h1>
+          <p class="text-slate-700 text-sm md:text-md">Experienced in translating designs into pixel-accurate interfaces, paying attention to details such as spacing, alignment, and visual hierarchy. Focused not only on visuals but also on responsiveness, consistency, and real-world usability across devices.</p>
+        </div>
       </div>
 
       <!-- Right -->
       <div class="mt-5 md:mt-0">
-        <img src="../../assets/static/profile.jpeg" alt="" class="w-70 h-73 rounded-xl border-5 border-slate-100 shadow-xl" />
+        <img src="../../assets/static/profile.jpeg" alt="" class="w-70 h-73 rounded-full border-5 border-slate-100 shadow-xl" />
       </div>
 
     </div>

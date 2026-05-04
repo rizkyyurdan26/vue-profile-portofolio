@@ -1,18 +1,18 @@
 <template>
   <header
     :class="[
-      'fixed z-50 top-0 w-full py-8 md:p-4  transition-all duration-200',
+      'fixed z-50 top-0 w-full py-px md:p-2  transition-all duration-200',
       isScrolled ? 'bg-cyan-800/60' : 'bg-transparent',
     ]"
   >
     <!-- Container -->
     <nav
-      class="flex justify-between max-w-[90%] lg:max-w-[80%] mx-auto items-center"
+      class="flex justify-between max-w-[90%] lg:max-w-[75%] mx-auto items-center"
     >
       <!-- Logo -->
       <div class="w-full">
         <a href="#"
-          ><img src="/logoputih.png" class="w-40 md:w-48 object-cover" />
+          ><img src="/main.png" class="w-24 object-cover" />
         </a>
       </div>
 

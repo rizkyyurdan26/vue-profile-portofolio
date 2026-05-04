@@ -1,20 +1,24 @@
 <template>
   <section
     id="top"
-    class="relative bg-cover w-full h-screen"
-    :style="{ backgroundImage: `url(${heroImg})` }"
+    class="relative bg-cover w-full h-[100dvh]"
+    style="background-image: url(/hero.webp);"
   >
     <!-- Overlay -->
     <div class="absolute bg-black/10 inset-0 z-0"></div>
 
     <!-- Container -->
     <div
-      class="relative z-10 flex flex-col max-w-[90%] lg:max-w-[80%] w-full mx-auto h-screen justify-center md:p-10 "
+      class="relative z-10 flex flex-col max-w-[90%] lg:max-w-[80%] w-full mx-auto h-screen justify-center md:p-10"
     >
       <!-- Main Title -->
       <div class="flex flex-col text-white">
-        <h1 class="font-medium text-md md:text-xl text-gray-200">Welcome to,</h1>
-        <h1 class="text-4xl md:text-6xl lg:text-5xl font-bold">My Profile Website</h1>
+        <h1 class="font-medium text-md md:text-xl text-gray-200">
+          Welcome to,
+        </h1>
+        <h1 class="text-4xl md:text-6xl lg:text-5xl font-bold">
+          My Profile Website
+        </h1>
         <!-- Item Span -->
         <div class="flex flex-wrap gap-2 mt-2 mb-8 md:max-w-md">
           <SpanButton text="Website" />
@@ -26,16 +30,23 @@
         <p class="max-w-lg text-md md:text-xl lg:text-md text-gray-200">
           Professional frontend developer specializing in Vue.js. Also take on
           freelance projects through my own business on
-          <a href="https://rystech.my.id" target='_blank' class="text-orange-200 underline"
+          <a
+            href="https://rystech.my.id"
+            target="_blank"
+            class="text-orange-200 underline"
             >rystech.my.id</a
-          >, follow this repository on <a href="https://github.com/rizkyyurdan26/vue-profile-portofolio" target='_blank' class="text-orange-200 underline"
+          >, follow this repository on
+          <a
+            href="https://github.com/rizkyyurdan26/vue-profile-portofolio"
+            target="_blank"
+            class="text-orange-200 underline"
             >Github Repo</a
           >
         </p>
       </div>
 
       <div
-        class="flex flex-col md:flex-row gap-4 justify-center items-center md:justify-start absolute w-full bottom-10 md:relative md:mt-20"
+        class="flex flex-col md:flex-row gap-4 justify-center items-center md:justify-start w-full bottom-10 md:relative mt-20"
       >
         <a href="#about">
           <PrimaryButton
@@ -58,7 +69,6 @@
 </template>
 
 <script setup>
-import heroImg from "../../assets/static/hero.png";
 import PrimaryButton from "../common/PrimaryButton.vue";
 import SpanButton from "../common/SpanButton.vue";
 
