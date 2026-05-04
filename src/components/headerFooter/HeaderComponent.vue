@@ -88,6 +88,17 @@
           "
           :class="activeMenu === 'education' ? 'md:text-sky-200' : ''"
         />
+        <AButton
+          href="#experience"
+          text="Experiences"
+          @click="
+            () => {
+              activeMenu = 'experience';
+              isActive = false;
+            }
+          "
+          :class="activeMenu === 'experience' ? 'md:text-sky-200' : ''"
+        />
         <a
           href="#contact"
           @click="() => (isActive = false)"
