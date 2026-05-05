@@ -1,5 +1,5 @@
 <template>
-  <div id="education" class="scroll-mt-20 md:scroll-mt-36 flex flex-col w-full items-center p-4 md:p-10 mt-10" data-sal="slide-up" data-sal-duration="1200">
+  <div class="flex flex-col w-full items-center p-4 md:p-10 mt-10" data-sal="slide-up" data-sal-duration="1200">
     <h1 class="font-bold text-2xl mb-10 md:mb-15">Education</h1>
 
     <div class="flex w-full mx-auto lg:max-w-[80%] px-4 md:px-6  justify-center">

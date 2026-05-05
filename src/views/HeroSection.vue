@@ -1,6 +1,5 @@
 <template>
   <section
-    id="top"
     class="relative bg-cover w-full h-[100dvh]"
     style="background-image: url(/hero.webp);"
     data-sal="fade" data-sal-duration="1500"

@@ -1,13 +1,24 @@
 <template>
   <HeaderComponent />
-  <HeroSection />
+  <div id="top">
+    <HeroSection />
+  </div>
 
   <main class="">
     <Services />
-    <About />
-    <Skills />
-    <Education />
-    <Experiences />
+    <div id="about">
+      <About />
+    </div>
+    <div id="skills">
+      <Skills />
+    </div>
+
+    <div id="education">
+      <Education />
+    </div>
+    <div id="experience">
+      <Experiences />
+    </div>
   </main>
 
   <FooterComponent />

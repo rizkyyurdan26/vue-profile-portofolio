@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="scroll-mt-20 md:scroll-mt-36 flex flex-col gap-5 w-full justify-center items-center py-10 md:py-15  bg-gray-100/40" data-sal="slide-up" data-sal-duration="1000">
+  <div class="flex flex-col gap-5 w-full justify-center items-center py-10 md:py-15  bg-gray-100/40" data-sal="slide-up" data-sal-duration="1000">
     
     <h1 class="text-2xl font-bold">About</h1>
     <div

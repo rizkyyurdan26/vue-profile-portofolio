@@ -6,7 +6,7 @@ import 'sal.js/dist/sal.css'
 
 onMounted(() => {
   sal({
-    threshold: 0.5,
+    threshold: 0.2,
     once: true
   })
 })
